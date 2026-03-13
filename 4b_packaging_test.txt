@@ -1,0 +1,7 @@
+theia@theiadocker-johnsonolaol:/home/project/final_project$ python3.11
+Python 3.11.14 (main, Oct 10 2025, 08:54:03) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am having a bad day")
+{'anger': 0.10456884, 'disgust': 0.026207307, 'fear': 0.17824857, 'joy': 0.02766506, 'sadness': 0.72728187, 'dominant_emotion': 'sadness'}
+>>> 
